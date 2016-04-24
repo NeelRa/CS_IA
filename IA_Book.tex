@@ -4,9 +4,9 @@
  
 %%
 % Book metadata
-\title{A Tufte-Style Book\thanks{Thanks to Edward R.~Tufte for his inspiration.}}
-\author[The Tufte-LaTeX Developers]{The Tufte-LaTeX\ Developers}
-\publisher{Publisher of This Book}
+\title{Computer Science IA}
+\author[Neel Ramani]{Android Application}
+\publisher{Neel Ramani}
  
 %%
 % If they're installed, use Bergamo and Chantilly from www.fontsite.com.
@@ -151,37 +151,36 @@
 \frontmatter
  
 % r.1 blank page
-\blankpage
+%\blankpage
  
 % v.2 epigraphs
-\newpage\thispagestyle{empty}
-\openepigraph{%
-The public is more familiar with bad design than good design.
-It is, in effect, conditioned to prefer bad design,
-because that is what it lives with.
-The new becomes threatening, the old reassuring.
-}{Paul Rand%, {\itshape Design, Form, and Chaos}
-}
-\vfill
-\openepigraph{%
-A designer knows that he has achieved perfection
-not when there is nothing left to add,
-but when there is nothing left to take away.
-}{Antoine de Saint-Exup\'{e}ry}
-\vfill
-\openepigraph{%
-\ldots the designer of a new system must not only be the implementor and the first
-large-scale user; the designer should also write the first user manual\ldots
-If I had not participated fully in all these activities,
-literally hundreds of improvements would never have been made,
-because I would never have thought of them or perceived
-why they were important.
-}{Donald E. Knuth}
+%\newpage\thispagestyle{empty}
+%\openepigraph{%
+%The public is more familiar with bad design than good design.
+%It is, in effect, conditioned to prefer bad design,
+%because that is what it lives with.
+%The new becomes threatening, the old reassuring.
+%}{Paul Rand%, {\itshape Design, Form, and Chaos}
+%}
+%\vfil
+%\openepigraph{%
+%A designer knows that he has achieved perfection
+%not when there is nothing left to add,
+%but when there is nothing left to take away.
+%}{Antoine de Saint-Exup\'{e}ry}
+%\vfill
+%\openepigraph{%
+%\ldots the designer of a new system must not only be the implementor and the first
+%large-scale user; the designer should also write the first user manual\ldots
+%If I had not participated fully in all these activities,
+%literally hundreds of improvements would never have been made,
+%because I would never have thought of them or perceived
+%why they were important.
+%}{Donald E. Knuth}
  
  
 % r.3 full title page
 \maketitle
- 
  
 % v.4 copyright page
 \newpage
@@ -190,23 +189,23 @@ why they were important.
 \thispagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{\baselineskip}
-Copyright \copyright\ \the\year\ \thanklessauthor
+%Copyright \copyright\ \the\year\ \thanklessauthor
  
-\par\smallcaps{Published by \thanklesspublisher}
+%\par\smallcaps{Published by \thanklesspublisher}
  
-\par\smallcaps{tufte-latex.googlecode.com}
+%\par\smallcaps{tufte-latex.googlecode.com}
  
-\par Licensed under the Apache License, Version 2.0 (the ``License''); you may not
-use this file except in compliance with the License. You may obtain a copy
-of the License at \url{http://www.apache.org/licenses/LICENSE-2.0}. Unless
-required by applicable law or agreed to in writing, software distributed
-under the License is distributed on an \smallcaps{``AS IS'' BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND}, either express or implied. See the
-License for the specific language governing permissions and limitations
-under the License.\index{license}
+%\par Licensed under the Apache License, Version 2.0 (the ``License''); you may not
+%use this file except in compliance with the License. You may obtain a copy
+%of the License at \url{http://www.apache.org/licenses/LICENSE-2.0}. Unless
+%required by applicable law or agreed to in writing, software distributed
+%under the License is distributed on an \smallcaps{``AS IS'' BASIS, WITHOUT
+%WARRANTIES OR CONDITIONS OF ANY KIND}, either express or implied. See the
+%License for the specific language governing permissions and limitations
+%under the License.\index{license}
  
-\par\textit{First printing, \monthyear}
-\end{fullwidth}
+%\par\textit{First printing, \monthyear}
+%\end{fullwidth}
  
 % r.5 contents
 \tableofcontents
@@ -221,9 +220,7 @@ under the License.\index{license}
 \begin{doublespace}
 \noindent\fontsize{18}{22}\selectfont\itshape
 \nohyphenation
-Dedicated to those who appreciate \LaTeX{}
-and the work of \mbox{Edward R.~Tufte}
-and \mbox{Donald E.~Knuth}.
+This project is dedicated to \textcolor{orange}{Austin Foods and Beverages Pvt. Ltd.}
 \end{doublespace}
 \vfill
 \vfill
@@ -231,19 +228,21 @@ and \mbox{Donald E.~Knuth}.
  
 % r.9 introduction
 \cleardoublepage
-\chapter*{Planning}
+\chapter*{Internal Assesment planning sheet}
 \section*{Solution Scenario}
+
 \section*{Client}
-Here we state who our client is.
+The client for this IA will be my father, Arvind Ramani. He is the director of Austin Foods and Beverages Pvt. Ltd. a company that specialises in canned food. 
 \section{Proof on consultation}
-Here we provide proof of meeting with a client. Mail, messages , Meeting time, etc
+Yet to record a consultation proof
 \section{Product Rationale}
-Describe clients needs with solution. For example: Website, app, programme, etc
+The company has different departments which handles different parts of the overall manufacturing process. The marketing department of the company has developed an android app to suit its need. The marketing department has also hired salesmen for their needs. Now, here is the problem, the app is installed on the android devices carried by all the salesmen, but sometimes its hard for the marketing department to check on the progress report of the salesmen, for example, they need to know where they have been and what products did they sell. My solution would be to make an extension for their already existing android app so that the salesmen could make a list of all the places they will visit during the day and the evaluation reports of the things they did there. The app would function in the following manner: At first, the salesmen would update their app calendar and make a list of all the places they are planning to visit with their time. Once they input the information, the app will emit their location during that time to the master application. Once the salesmen are finished with their job at the particular place, they would fill in the evaluation form and would upload it on the app. This would be reflected on the master application and the process will continue next day.
 \section{Success Criteria}
 \begin{description}
-\item{Database}
-\item{Easy to understand}
- 
+\item{Testing the app}
+\item{No Backoors}
+\item{User Friendly}
+\item{Reviews from client}
 \end{description}
  
 \chapter*{Solution overview}
